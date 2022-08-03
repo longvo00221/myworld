@@ -1,0 +1,186 @@
+@media (min-width: 768px)and (max-width: 1025px){}
+@media (max-width: 740px){
+    #header{
+    }
+    .hamburger-menu{
+        display: grid;
+        color: #fff;
+    }
+    
+.header__navbar-logoimg {
+    width: 66px;
+    margin-left: 20px;
+}
+.header__navbar-list{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background:linear-gradient(135deg, #1d1d1d 0%, #630362,#1d1d1d 100%) !important;
+    top: 90%;
+    left: -100%;
+    width: 100%;
+    padding: 20px;
+    transition: .3s ease-in-out;
+}
+.active{
+    left: 0 !important;
+}
+
+    #main_slider1{
+        width: 100%;
+    }
+    .main_slider-social{
+        flex-direction: row;
+    }
+    .button{
+        width: 50%;
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+
+    }
+    .counting{
+        flex-wrap: wrap;
+
+    }
+    .counting-title{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .grid__column-2-4{
+        width: 100%;
+        padding: 0;
+    }
+    .non-respon{
+        display: none;
+    }
+    .width-50{
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+    .margintop{
+        margin-top: 30px;
+    }
+    .footer-logo{
+        text-align: center;
+    }
+    .footer-copyright::after{
+        right: 17px;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
+    .social-list{
+        flex-direction: column ;
+    }
+    .news-img{
+        display: none;
+    }
+    .grid_column-50{
+        width: 100%;
+    }
+    .news-title{
+       display: none;
+    }
+    .news-title-mobie{
+        display: block;
+        color: #fff;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .game_slider-list{
+        flex-direction: column;
+    }
+    .card-game{
+        width: 100%;
+    }
+    .parallax{
+        background-size: cover;
+        background-image: url("./img/cyperpunkgirl.JPG");
+        min-height: 900px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform-style: preserve-3d;
+        position: relative;
+        width: 100%;
+    }
+    .parallax-2{
+        background-size: cover;
+        background-image: url("./img/fnonmobile.JPG");
+        min-height: 900px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform-style: preserve-3d;
+        position: relative;
+        display: flex;
+    }
+    .parallax-3{
+        background-size: cover;
+        background-image: url("./img/wukongonmobile.JPG");
+        min-height: 900px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform-style: preserve-3d;
+        position: relative;
+        display: flex;
+        overflow-y: hidden;
+    }
+    .parallax-title{
+        font-size: 2rem;
+    }
+    .parallax-description{
+        width: 100%;
+    }
+    .time-and-type-competition{
+        display: none;
+    }
+    .stream-competition{
+        display: none;
+    }
+    .team-competition{
+        padding: 20px 0;
+        border-radius: 20px;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .static{
+        padding: 20px;
+    }
+    .more-offline-game{
+        flex-direction: column;
+    }
+    #myVideo{
+        display: none;
+    }
+    .game_slider4-header{
+        font-size: 2rem;
+    }
+    .content-competition{
+        flex-direction: column;
+    }
+    .list-type-competition li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .list-type-competition li span{
+        margin-top:20px;
+    }
+    .main_slider1-content{
+        font-size: 2.5rem;
+    }
+    .dislaynone{
+        display: none;
+    }
+    .header__navbar-list{
+        margin-left: 0;
+    }
+}

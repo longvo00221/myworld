@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/Gaming-logo-template-on-transparent-background-PNG.png" type="image/x-icon">
+    <title>Game World</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+</head>
+<body>
+    <div id="main">
+
+        <div id="header">
+            <div class="header__navbar">
+                <div class="header__navbar-img">
+                    <a href="" class="header__navbar-link">
+                        <img class ="header__navbar-logoimg" src="./assets/img/Gaming-logo-template-on-transparent-background-PNG.png" alt="">
+                    </a>
+                </div>
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-item-link">HOME</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+                            NEWS
+                        </a>
+                            <!-- <i class="fa-solid fa-angle-down"></i> -->
+                        
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link js-btn-1">GAMES</a>
+                    </li>
+                    <li class="header__navbar-item ">
+                        <a href="./movie/index.html" class="header__navbar-item-link js-btn-2">MOVIES</a>
+                    </li>
+                    <li class="header__navbar-item ">
+                        <a href="" class="header__navbar-item-link js-btn-3">COMPETITION</a>
+                    </li>
+                    
+                       <li class="header__navbar-item header__navbar-user ">
+                                <img src="./assets/img/Gaming-logo-template-on-transparent-background-PNG.png" alt="" class="header__navbar-user-img">
+                                <span class="header__navbar-user-name">Long Võ
+                            <i class="fa-solid fa-angle-down"></i>
+                                </span>
+                                <ul class="header_navbar-user-menu">
+                                    <li class="header__navbar-user-item">
+                                        <a style="display: block;" href=""class="header__navbar-user-item-link">My Account</a>
+                                        <a style="display: block;" href=""class="header__navbar-user-item-link">Storage</a>
+                                        <a style="display: block;" href=""class="header__navbar-user-item-link">Setting</a>
+                                        <a style="display: block;" href=""class="header__navbar-user-item-link">Contact</a>
+                                        <button class="header__navbar-user-item-link header__navbar-user-item-link--separate js-log-out" style="display: block;">Log out
+                                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                        </li>
+                </ul>
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+    
+            </div>
+        </div>
+        <div id="container">
+            <div id="main_slider1">
+                <!-- <img src="./assets/img/mainwallpaper.jpg" alt="" class="main_slider1-img"> -->
+                <!-- <video autoplay muted loop id="myVideo">
+                    <source src="./assets/img/mylivewallpapers-com-Cyberpunk-Girl-Cyborg.mp4" type="video/mp4">
+                  </video> -->
+                    <div class="main_slider-social">
+                        <i class="main_slider-social-icon fa-brands fa-discord"></i>
+                        <i class="main_slider-social-icon fa-brands fa-twitch"></i>
+                        <i class="main_slider-social-icon fa-brands fa-reddit"></i>
+                    </div>
+                    <div class="main_slider1-content">More game <br> is available now
+                    <br>
+                    <br>
+                    <a href="#" class="button">Join With Us!</a>
+                    </div>
+            </div>
+            <div class="social_slider2">
+                <ul class="social-list">
+                    <li class="social-item show-on-scroll left-to-right">
+                        <a href="" class="social-item-link">
+                            <i class="social-item-icon fa-brands fa-twitch"></i>
+                            <div class="social-item-title">Twitch Streaming</div>
+                            <div class="social-item-description">New streams everyday from best player</div>
+                        </a>
+                        
+                    </li>
+                    <li class="social-item show-on-scroll bottom-to-top">
+                        <a href="" class="social-item-link">
+                            <i class="social-item-icon fa-brands fa-discord"></i>
+                            <div class="social-item-title">Discord Server</div>
+                            <div class="social-item-description">Goodway to connect and play together, join our server</div>
+                        </a>
+                    </li>
+                    <li class="social-item show-on-scroll left-to-right">
+                        <a href="" class="social-item-link">
+                            <i class="social-item-icon fa-solid fa-gamepad"></i>
+                            <div class="social-item-title">Game Play</div>
+                            <div class="social-item-description">Post your highlight and show them how perfect you are </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="news_slider3">
+                <div class="grid">
+                    <div class="grid_row">
+                        <div class="grid_column-50 show-on-scroll left-to-right">
+                            <h3 class="news-title">Game and Esport News update everytime.</h3>
+                            <h3 class="news-title-mobie">Game News</h3>
+                            <p class="news-description">Welcome to our esports news resource. Here you will get to read the esports news articles that matter most. Whether you are interested in reading about fast-paced shooter games like CSGO, Apex Legends, Call of Duty or Rainbow Six Siege, or prefer battle arena games like League of Legends and Dota 2, then you’ll find your favourite title covered in our esports news section.</p>
+                            <button class="news-showmore">Show More <i class="news-showmore-icon fa-solid fa-info"></i></button>
+                        </div>
+                        <div class="grid_column-50 show-on-scroll left-to-right">
+                            <img src="./assets/img/news.jpg" alt="" class="news-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="game_slider4">
+                <h2 class="game_slider4-header">
+                    Esport Game
+                </h2>
+                <div class="game_slider-list">
+                    <article class="card-game card-game-1 show-on-scroll left-to-right ">
+                        <div class="card_content">
+                            <h3 class="card_title">CSGO</h3>
+                            <p class="card-description">CSGO is a 2012 multiplayer first-person shooter developed by Valve and Hidden Path Entertainment. It is the fourth game in the Counter-Strike series</p>
+                        </div>
+                    </article>
+                    <!-- <article class="card-game card-game-2">
+                        <div class="card_content">
+                            <h3 class="card_title">FIFA</h3>
+                            <p class="card-description">FIFA Online 4 is a free-to-play massively multiplayer online football developed by EA Spearhead and published by Nexon</p>
+                        </div>
+                    </article> -->
+                    <article class="card-game card-game-3 show-on-scroll top-to-bottom">
+                        <div class="card_content">
+                            <h3 class="card_title">League Of Legend</h3>
+                            <p class="card-description">League of Legends, commonly referred to as League, is a 2009 multiplayer online battle arena video game developed and published by Riot Games.</p>
+                        </div>
+                    </article>
+                    <article class="card-game card-game-4 show-on-scroll bottom-to-top ">
+                        <div class="card_content">
+                            <h3 class="card_title">PUBG</h3>
+                            <p class="card-description">PUBG is a battle royale game developed and published by PUBG Studios, a subsidiary of Krafton</p>
+                        </div>
+                    </article>
+                    <article class="card-game card-game-5 show-on-scroll left-to-right ">
+                        <div class="card_content">
+                            <h3 class="card_title">VALORANT</h3>
+                            <p class="card-description">Valorant is a free-to-play first-person hero shooter developed and published by Riot Games, for Microsoft Windows</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+                <div class="content-wrapper">
+                    <div class="parallax">
+                        <div class="parallax-content show-on-scroll left-to-right-for-slider">
+                            <div class="parallax-title">CYBERPUNK 2077</div>
+                            <div class="parallax-description">Cyberpunk 2077 is an action role-playing video game developed by CD Projekt Red and published by CD Projekt. The story takes place in Night City, an open world set in the Cyberpunk universe</div>
+                            
+                                <button onclick="location.href='https://www.cyberpunk.net/us/en/'" class="playnow">PlayNow</button>
+                            
+                        </div>
+                    </div>
+              
+                    <div class="static">
+                      <div class="content-competition">
+                        <h3 class="content-compe-title">MATCHES</h3>
+                        <ul class="list-type-competition">
+                            <li>
+                                <a href="" class="link-competion-game">ALL</a>
+                                <span>/</span>
+                            </li>
+                            <li>
+                                <a href="" class="link-competion-game">LOL</a>
+                                <span>/</span>
+                            </li>
+                            <li>
+                                <a href="" class="link-competion-game">CSGO</a>
+                                <span>/</span>
+                            </li>
+                            <li>
+                                <a href="" class="link-competion-game">PUBG</a>                            </li>
+                        </ul>
+                      </div>
+                      <ul class="list-competition">
+                        <li class="team-competition show-on-scroll left-to-right">
+                            <div class="team-1">
+                                <img src="./assets/img/team/cliklav.png" alt="cliklav" class="team-img">
+                                <div class="team-name">CLIKLAV</div>
+                            </div>
+                            <p class="team-vs">vs</p>
+                            <div class="team-2">
+                                <img src="./assets/img/team/gerto.png" alt="GERTO" class="team-img">
+                                <div class="team-name">GERTO</div>
+                            </div>
+                            <div class="time-and-type-competition">
+                                <div class="competition-esport">ESPORT LEAGUE - CS GO DIVISION</div>
+                                <div class="time-compettion">DECEMBER 25,2020 4:00 PM</div>
+                            </div>
+                            <div class="stream-competition"><i class="fa-brands fa-twitch"></i> Twitch Stream</div>
+                        </li>
+                        <li class="team-competition show-on-scroll left-to-right">
+                            <div class="team-1">
+                                <img src="./assets/img/team/GRUV.png" alt="GRUV" class="team-img">
+                                <div class="team-name">GRUV</div>
+                            </div>
+                            <p class="team-vs">vs</p>
+                            <div class="team-2">
+                                <img src="./assets/img/team/GDEV.png" alt="GDEV" class="team-img">
+                                <div class="team-name">GDEV</div>
+                            </div>
+                            <div class="time-and-type-competition">
+                                <div class="competition-esport">ESPORT LEAGUE - CS GO DIVISION</div>
+                                <div class="time-compettion">DECEMBER 25,2020 12:00 AM</div>
+                            </div>
+                            <div class="stream-competition"><i class="fa-brands fa-twitch"></i> Twitch Stream</div>
+                        </li>
+                        <li class="team-competition show-on-scroll left-to-right">
+                            <div class="team-1">
+                                <img src="./assets/img/team/DRAGONS.png" alt="DRAGONS" class="team-img">
+                                <div class="team-name">DRAGONS</div>
+                            </div>
+                            <p class="team-vs">vs</p>
+                            <div class="team-2">
+                                <img src="./assets/img/team/COLIN.png" alt="COLIN" class="team-img">
+                                <div class="team-name">COLIN</div>
+                            </div>
+                            <div class="time-and-type-competition">
+                                <div class="competition-esport">ESPORT LEAGUE - DOTA 2</div>
+                                <div class="time-compettion">DECEMBER 31,2020 7:00 AM</div>
+                            </div>
+                            <div class="stream-competition"><i class="fa-brands fa-twitch"></i> Twitch Stream</div>
+                        </li>
+                        <li class="team-competition show-on-scroll left-to-right">
+                            <div class="team-1">
+                                <img src="./assets/img/team/T1.png" alt="T1" class="team-img">
+                                <div class="team-name">T1</div>
+                            </div>
+                            <p class="team-vs">vs</p>
+                            <div class="team-2">
+                                <img src="./assets/img/team//GENG.png" alt="GENG" class="team-img">
+                                <div class="team-name">GENG</div>
+                            </div>
+                            <div class="time-and-type-competition">
+                                <div class="competition-esport">ESPORT LEAGUE - LEAGUE OF LEGEND</div>
+                                <div class="time-compettion">July 31,2022 15:00 PM</div>
+                            </div>
+                            <div class="stream-competition"><i class="fa-brands fa-youtube"></i> Youtube Stream</div>
+                        </li>
+                        
+                      </ul>
+
+                    </div>
+              
+                    <div class="parallax-2">
+                        <div class="parallax-content show-on-scroll left-to-right-for-slider">
+                            <div class="parallax-title">FINAL FANTASY XV</div>
+                            <div class="parallax-description">Final Fantasy XV is an action role-playing game developed and published by Square Enix. The fifteenth main installment of the Final Fantasy series, it was released for the PlayStation 4 and Xbox One in 2016, Microsoft Windows in 2018, and as a launch title for Stadia in 2019</div>
+                                <button onclick="location.href='https://finalfantasyxv.square-enix-games.com/'" class="playnow">PlayNow</button>
+                        </div>
+                    </div>
+              
+                    <div class="static static-more-game">
+                        <h2 class="game_slider4-header">BEST GAME OF 2022</h2>
+                        <div class="more-offline-game">
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-1">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">ELDEN RING</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/agecheck/app/1245620/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-2">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">FIFA ONLINE 4</h3>
+                                    <button onclick="location.href='https://fo4.garena.vn/chinh-thuc-cho-download-fifa-online-4/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-3">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">FINAL FANTASY</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/agecheck/app/637650/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-4">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">HALO 5</h3>
+                                    <button onclick="location.href='https://www.xbox.com/en-US/games/store/halo-5-guardians/brrc2bp0g9p0'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-5">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">GOD OF WAR</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/agecheck/app/1593500/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="more-offline-game more-offline-game-2">
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-1" style="background: url('./assets/img/stray.jpg')center no-repeat;background-size: cover;">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">STRAY</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/app/1332010/Stray/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-2" style="background: url('./assets/img/hitman.jpg')center no-repeat;background-size: cover;">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">HITMAN 2</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/app/863550/HITMAN_2/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-3" style="background: url('./assets/img/assasin.jpg')center no-repeat;background-size: cover;">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">ASSASSIN'S CREED</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/app/812140/Assassins_Creed_Odyssey/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-4" style="background: url('./assets/img/dyinglight.jpg')center no-repeat;background-size: cover;">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">DYING LIGHT 2</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/agecheck/app/534380/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-5" style="background: url('./assets/img/devilmaycry.jpg')center no-repeat;background-size: cover;">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">DEVIL MAY CRY</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/agecheck/app/601150/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="more-offline-game more-offline-game-3">
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-1" style="background: url('./assets/img/cod.jpg')center no-repeat;background-size: cover;">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">CALL OF DUTY</h3>
+                                    <button onclick="location.href='https://www.callofduty.com/content/atvi/callofduty/blackops4/web/en/home.html/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-2" style="background: url('./assets/img/titanfall.jpg')center no-repeat;background-size: cover;">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">TIANFALL 2</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/app/1237970/Titanfall_2/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-3" style="background: url('./assets/img/nier.jpg')center no-repeat;background-size: cover;">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">NIER AUTOMATA</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/app/524220/NieRAutomata/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-4" style="background: url('./assets/img/the\ witcher.jpg')center no-repeat;background-size: cover;">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">THE WITCHER</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                            <article class="card-game show-on-scroll bottom-to-top card-game-more-info card-game-more-5" style="background: url('./assets/img/gta.jpg')center no-repeat;background-size: cover;">
+                                <div class="card_content card_content-more">
+                                    <h3 class="card_title card_title-more-game">GTA V</h3>
+                                    <button onclick="location.href='https://store.steampowered.com/agecheck/app/271590/'" class="playnow playnow-btn">PlayNow</button>
+                                </div>
+                            </article>
+                        </div>
+                        
+                       
+                    </div>
+                    <div class="parallax-3">
+                        <!-- <video autoplay muted loop id="myVideo2" class="myVideo-background">
+                            <source src="./assets/img/video_WebTitle_batch.mp4" type="video/mp4">
+                        </video> -->
+                        <div class="parallax-content show-on-scroll left-to-right-for-slider">
+                            <div class="parallax-title">Black Myth: Wukong</div>
+                            <div class="parallax-description">Black Myth: Wukong is a game built on the Unreal Engine 5 graphics platform, with top-notch graphics and an attractive storyline, promising to be a super product during its launch.</div>
+                                <button onclick="location.href='https://www.heishenhua.com/'" class="playnow">Comming Soon</button>
+                        </div>
+                        
+                            <video autoplay muted loop id="myVideo" class="myVideo show-on-scroll left-to-right-for-slider">
+                                <source src="./assets/img/gamesci_2021PV02_preview.mp4" type="video/mp4">
+                            </video>
+                    
+                            
+                    </div>
+                    <div class="static">
+                        
+                        <div class="counting">
+                            <!-- player -->
+                            <div class="our-player">
+                                <div class="counting-title">
+                                  Player+
+                                </div>
+                                <div id="transaction-count" class="count-number">
+                                    4,000
+                                </div>
+                                <i class="counting-icon fa-solid fa-gamepad"></i>
+                            </div>
+                            <!-- Game -->
+                            <div class="our-game">
+                                <div class="counting-title">Game Available+</div>
+                                <div id="city-count" class="count-number">
+                                    430
+                                </div>
+                                <i class="counting-icon fa-brands fa-playstation"></i>
+                            </div>
+                              <!-- Streamer -->
+                              <div class="our-streamer">
+                                  <div class="counting-title">Streamer+</div>
+                                  <div id="customer-count" class="count-number">
+                                      300
+                                  </div>
+                                  <i class="counting-icon fa-brands fa-twitch"></i>
+                              </div>
+                              <!-- viewer -->
+                              <div class="our-viewer">
+                                  <div class="counting-title">Viewer+</div>
+                                  <div id="viewer-count" class="count-number">
+                                    5,000,000
+                                </div>
+                                <i class="counting-icon fa-solid fa-user"></i>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            
+        </div>
+        <div id="footer">
+            <div class="grid">
+                <div class="grid_row">
+                    <div class="grid__column-2-4">
+                        <div class="footer-logo">
+                            <img src="./assets/img/Gaming-logo-template-on-transparent-background-PNG.png" alt="" style="width:100px">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="" id="name" class="input" required>
+                            <label for="name" class="input-label">Your Gmail</label>
+                            
+                        </div>
+                        <p class="footer-description">The world without photography will be meaningless to us.</p>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <div class="address-title">Information</div>
+                        <div class="address-location">Street 53, Hiep Binh Chanh Ward, Thu Duc City, Ho Chi Minh City</div>
+                        <div class="phone-address">Phone:+84 (902) 595 237 </div>
+                        <div class="mail-address">Email:supportgameworld@gmail-group.com</div>
+                    </div>
+                    <div class="grid__column-2-4 non-respon" style="padding-left:10px ;">
+                        <div class="address-title">Tutorial</div>
+                        <div class="address-location">Read Fact</div>
+                        <div class="phone-address">Read Tutorial </div>
+                        <div class="mail-address">Cookies & rules</div>
+                    </div>
+                    <div class="grid__column-2-4 margintop center">
+                        <div class="address-title">About Us</div>
+                        <div class="address-location width-50">
+                            <a href="" class="social-link-footer">
+                                <i class="social-icon-footer fa-brands fa-facebook-f"></i>Facebook</div>
+                            </a>
+                        <div class="phone-address width-50">
+                            <a href="" class="social-link-footer">
+                                <i class="social-icon-footer fa-brands fa-instagram"></i>Instagram</div>
+                            </a>
+                        <div class="mail-address width-50">
+                            <a href="" class="social-link-footer">
+                                <i class="social-icon-footer fa-brands fa-discord"></i>Discord</div>
+                            </a>
+                        <div class="mail-address width-50">
+                            <a href="" class="social-link-footer">
+                                <i class="social-icon-footer fa-brands fa-twitter"></i>Twitter</div>
+                            </a>
+                        <div class="mail-address width-50">
+                            <a href="" class="social-link-footer">
+                                <i class="social-icon-footer fa-brands fa-twitch"></i>Twitch</div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="footer-copyright">© 2022, Game World, Inc. Tous droits réservés. Game, Game World, le logo Game World, Halo5, Nier Automata, Unreal, Unreal Engine, le logo Unreal Engine, Unreal Tournament et le logo Unreal Tournament sont des marques ou des marques déposées d'Game World, Inc. aux États-Unis d'Amérique et ailleurs. Les autres marques ou noms de produit appartiennent à leurs propriétaires respectifs. En dehors des États-Unis, les transactions sont gérées par Game World International, S.à r.l.</div>
+            <div class="footer-copyright-2">© 2019, Developed and Build By LongVoDev </div>
+        </div>
+    </div>
+    <script src="./assets/app.js"></script>
+</body>
+</html>
