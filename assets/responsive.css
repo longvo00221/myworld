@@ -96,10 +96,10 @@
         width: 100%;
     }
     .parallax{
-        background-size: cover;
+        
         background-image: url("./img/cyperpunkgirl.JPG");
         min-height: 900px;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -108,10 +108,11 @@
         width: 100%;
     }
     .parallax-2{
-        background-size: cover;
+        /* background-size: cover; */
         background-image: url("./img/fnonmobile.JPG");
         min-height: 900px;
-        background-attachment: fixed;
+        width: 100%;
+        background-attachment: scroll;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -123,7 +124,7 @@
         background-size: cover;
         background-image: url("./img/wukongonmobile.JPG");
         min-height: 900px;
-        background-attachment: fixed;
+        background-attachment: scroll;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -183,4 +184,10 @@
     .header__navbar-list{
         margin-left: 0;
     }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.demo{ 
+    display: block; 
+}
 }
