@@ -99,7 +99,7 @@
         
         background-image: url("./img/cyperpunkgirl.JPG");
         min-height: 900px;
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -112,7 +112,7 @@
         background-image: url("./img/fnonmobile.JPG");
         min-height: 900px;
         width: 100%;
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -124,7 +124,7 @@
         background-size: cover;
         background-image: url("./img/wukongonmobile.JPG");
         min-height: 900px;
-        background-attachment: scroll;
+        background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -186,8 +186,45 @@
     }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-.demo{ 
-    display: block; 
-}
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+        .parallax{
+            background-image: url("./img/cyperpunkgirl.JPG");
+            min-height: 900px;
+            background-attachment: scroll;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transform-style: preserve-3d;
+            position: relative;
+            width: 100%;
+        }
+        .parallax-2{
+            /* background-size: cover; */
+            background-image: url("./img/fnonmobile.JPG");
+            min-height: 900px;
+            width: 100%;
+            background-attachment: scroll;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transform-style: preserve-3d;
+            position: relative;
+            display: flex;
+        }
+        .parallax-3{
+            background-size: cover;
+            background-image: url("./img/wukongonmobile.JPG");
+            min-height: 900px;
+            background-attachment: scroll;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transform-style: preserve-3d;
+            position: relative;
+            display: flex;
+            overflow-y: hidden;
+        }
+
+    }
 }
